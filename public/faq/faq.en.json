@@ -1,0 +1,42 @@
+[
+    {
+        "id": "pricing",
+        "q": "How much does the service cost?",
+        "a": "We work with a basic subscription plus an upfront payment for setup. Extra features like more languages, videos, or booking system are available as add-ons."
+    },
+    {
+        "id": "domain",
+        "q": "Can I use my own domain?",
+        "a": "Yes! Your restaurant gets a free subdomain (xxx.myrestaurantmenu.com). If you prefer a custom domain, it's included with an annual contract, otherwise it has an extra cost."
+    },
+    {
+        "id": "multilang",
+        "q": "Is the menu multilingual?",
+        "a": "Absolutely. You can display your QR menu in as many languages as you want. Each extra language can be added as an add-on."
+    },
+    {
+        "id": "cms",
+        "q": "How do I update my menu or information?",
+        "a": "Restaurant owners have access to a CMS where they can easily add, edit, or delete products, update information, and manage campaigns."
+    },
+    {
+        "id": "campaigns",
+        "q": "What kind of campaigns can I create?",
+        "a": "You can highlight a dish of the day, promote special events like New Year’s Eve, or create custom marketing campaigns. It’s very flexible and creative."
+    },
+    {
+        "id": "ads",
+        "q": "Can I place ads in my menu?",
+        "a": "Yes, owners can place advertisements inside the menu. This is great for partnerships and promotions."
+    },
+    {
+        "id": "customers",
+        "q": "What can my restaurant’s customers do?",
+        "a": "Customers can sign in to get gift cards, collect stamp cards, like or save their favorite meals, and in the future even call a waiter or place an order."
+    },
+    {
+        "id": "support",
+        "q": "How do I get customer support?",
+        "a": "We provide support by email and respond in less than 24 hours."
+    }
+]

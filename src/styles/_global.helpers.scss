@@ -1,0 +1,97 @@
+// src/styles/_global.helpers.scss
+
+
+@use './_base.variables.scss' as *;
+@use './_base.mixins.scss' as *;
+
+// Flex helpers
+.row-center {
+    @include displayFlex(row wrap, center, center);
+}
+.row-start {
+    @include displayFlex(row wrap, flex-start, flex-start);
+}
+.row-end {
+    @include displayFlex(row wrap, flex-end, flex-end);
+}
+.column-center {
+    @include displayFlex(column wrap, center, center);
+}
+.column-start {
+    @include displayFlex(column wrap, flex-start, flex-start);
+}
+.column-end {
+    @include displayFlex(column wrap, flex-end, flex-end);
+}
+
+.text-container {
+    @include displayFlex(column nowrap, flex-start, flex-start);
+    gap: 30px;
+}
+
+// Global input / textarea styles
+input, textarea, select {
+    font-family: inherit;
+    font-size: 0.95rem;
+    color: $COLORS-base-900;
+    background: $COLORS-base-200;
+    border: 1px solid transparent;
+    padding: 0.55rem 0.65rem;
+    border-radius: 8px;
+    outline: none;
+    transition: box-shadow 0.15s ease, border-color 0.15s ease, transform 0.08s ease;
+}
+
+input::placeholder, textarea::placeholder {
+    color: rgba($COLORS-base-900, 0.5);
+}
+
+input:focus, textarea:focus, select:focus {
+    box-shadow: 0 6px 18px rgba(0,0,0,0.06);
+    border-color: rgba($COLORS-red-900, 0.15);
+    transform: translateY(-1px);
+}
+
+textarea {
+    min-height: 6rem;
+    resize: vertical;
+}
+
+// Background style helpers
+// Section with overflow background
+.section.section-overflow-background {
+    .background-base-200 {
+        display: block;
+        position: absolute;
+        left: -10rem;
+        background-color: $COLORS-base-200;
+        opacity: 0.4;
+        width: 200%;
+        height: calc(100% + 6rem);
+        border-radius: 2rem;
+        z-index: 1;
+    }
+    .background-gradient-light-diagonal {
+        display: block;
+        position: absolute;
+        left: -10rem;
+        background-color: transparent;
+        background-image: $COLORS-gradient-light-diagonal;
+        opacity: 0.6;
+        width: 200%;
+        height: calc(100% + 6rem);
+        border-radius: 2rem;
+        z-index: 1;
+    }
+    .background-red-200 {
+        display: block;
+        position: absolute;
+        left: -10rem;
+        background-color: $COLORS-red-900;
+        opacity: 1;
+        width: 200%;
+        height: 100%;
+        border-radius: 2rem;
+        z-index: 1;
+    }
+}

@@ -1,0 +1,38 @@
+// src/styles/com-se.promo.scss
+
+
+@use './_base.variables.scss' as *;
+@use './_base.mixins.scss' as *;
+
+
+// ### Styles for ./components/section/PromoBannerLoop
+
+.promo-banner-container {
+    position: relative;
+    @include displayFlex(row nowrap, flex-start, center);
+    padding: 4rem 0;
+    width: 100%;
+    background: $COLORS-red-900;
+    color: $COLORS-base-100;
+    overflow: hidden;
+    height: 6rem;
+    .content-wrapper {
+        @include displayFlex(row nowrap, flex-start, flex-start);
+        white-space: nowrap;
+        will-change: transform;
+        animation: loop 800s linear infinite;
+        .content {
+            @include fontSans(2rem, 600, inherit);
+            padding: 0 2rem;
+        }
+    }
+}
+
+@keyframes loop {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-50%);
+    }
+}

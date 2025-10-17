@@ -1,0 +1,78 @@
+// src/styles/_base.mixins.scss
+
+
+@use './_base.variables.scss' as *;
+
+
+// ### FONTS MIXINS
+@mixin fontSans ($size, $weight, $color) {
+    font-family: 'PT Sans', sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: $size;
+    font-weight: $weight;
+    color: $color;
+}
+
+@mixin fontSerif ($size, $weight, $color) {
+    font-family: 'PT Serif', serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: $size;
+    font-weight: $weight;
+    color: $color;
+}
+
+@mixin fontBold () {
+    font-weight: 600;
+}
+
+
+// ### HELPER MIXINS
+@mixin displayFlex ($flow, $justify, $align) {
+    display: flex;
+    flex-flow: $flow;
+    justify-content: $justify;
+    align-items: $align;
+}
+
+@mixin gap ($space) {
+    height: $space;
+    width: $space;
+}
+
+@mixin hoverPointer() {
+    &:not([disabled]):hover {
+        cursor: pointer;
+    }
+}
+
+
+// ### BUTTON MIXINS
+@mixin button ($background, $color) {
+    @include displayFlex(row nowrap, center, center);
+    @include hoverPointer();
+    width: fit-content;
+    padding: 0.3rem 1rem;
+    background-color: $background;
+    @include fontSans(1.1rem, 400, $COLORS-base-900);
+    color: $color;
+    border-radius: 1.5rem;
+    // border: solid 0.1rem;
+    // border-color: $background;
+    border: none;
+}
+
+@mixin buttonBorder ($background, $color, $border) {
+    @include displayFlex(row nowrap, center, center);
+    @include hoverPointer();
+    width: fit-content;
+    padding: 0.3rem 1rem;
+    background-color: $background;
+    @include fontSans(1.1rem, 400, $COLORS-base-900);
+    color: $color;
+    border-radius: 1.5rem;
+    border: solid 0.1rem;
+    border-color: $border;
+    box-sizing: border-box;
+}

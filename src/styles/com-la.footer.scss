@@ -1,0 +1,95 @@
+// src/styles/com-la.footer.scss
+
+
+@use './_base.variables.scss' as *;
+@use './_base.mixins.scss' as *;
+
+
+// ### Styles for ./components/layout/footer
+
+.footer {
+    @include displayFlex(column wrap, center, center);
+    @include fontSans(16px, 400, $COLORS-base-900);
+    position: relative;
+    gap: 1.75rem;
+    width: fit-content;
+    padding: 1.25rem;
+    background-color: $COLORS-base-100;
+    border-radius: 1rem;
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    .logo {
+        @include hoverPointer();
+        height: 180px;
+    }
+    .nav-container {
+        @include displayFlex(row wrap, center, flex-start);
+        gap: 2rem;
+        .nav-group {
+            @include displayFlex(column nowrap, center, center);
+            gap: 0.8rem;
+            width: 100%;
+            .tab {
+                @include hoverPointer();
+                @include fontSans(0.85rem, 400, $COLORS-base-900);
+            }
+            .tab.active {
+                font-weight: 600;
+            }
+            .tab.active, .tab:hover {
+                text-decoration: underline;
+            }
+            .nav-links {
+                @include displayFlex(row wrap, center, flex-start);
+                gap: 1.2rem;
+            }
+        }
+    }
+    @media (min-width:820px) {
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        .nav-container {
+            flex-wrap: nowrap;
+            .nav-group {
+                align-items: flex-start;
+                width: fit-content;
+                .nav-links {
+                    flex-direction: column;
+                    width: fit-content;
+                }
+            }
+        }
+    }
+    @media (min-width:920px) {
+        flex-direction: row;
+        justify-content: space-between;
+        width: 95%;
+        padding: 2.25rem;
+        .nav-container {
+            gap: 2.5rem;
+            .nav-group {
+                align-items: flex-start;
+                width: fit-content;
+                .nav-links {
+                    flex-direction: column;
+                    width: fit-content;
+                }
+            }
+        }
+    }
+    @media (min-width: 1024px) {
+        .logo {
+            height: 240px;
+        }
+    }
+    @media (min-width:1440px) {
+        width: 100%;
+        max-width: 1430px;
+        padding: 2.25rem;
+        .nav-container {
+            gap: 4rem;
+        }
+    }
+}

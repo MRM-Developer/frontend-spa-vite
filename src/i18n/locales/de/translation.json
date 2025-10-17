@@ -1,0 +1,604 @@
+{
+  "nav": {
+    "home": "Startseite",
+    "features": "Funktionen",
+    "pricing": "Preise",
+    "demo": "Demos",
+    "contact": "Kontakt",
+    "signIn": "Anmelden",
+    "signUp": "Registrieren",
+    "signOut": "Abmelden",
+    "about": "Über uns",
+    "status": "Status",
+    "partners": "Partner",
+    "privacy": "Datenschutz",
+    "legal": "Nutzungsbedingungen",
+    "cookies": "Cookie-Richtlinie",
+    "academy": "Menu Academy",
+    "faq": "Häufige Fragen",
+    "blog": "Blog",
+    "sales": "KI-Verkaufsberater",
+    "demoPizza": "DEMO Pizzeria",
+    "demoMarket": "DEMO Food Market",
+    "addsOn": "Erweiterungen",
+    "qrCodes": "QR-Codes",
+    "smartMarket": "Smart Market"
+  },
+  "section": {
+    "hero": {
+      "common": {
+        "bullets": {
+          "loading": "<boldRed>Schnelle Ladezeiten</boldRed>",
+          "engagement": "<bold>Mehr Interaktion</bold>",
+          "onlinePresence": "Professionelle Online-Präsenz",
+          "streamline": "Service optimieren",
+          "grow": "Lass dein Restaurant wachsen",
+          "transparent": "<bold>Transparent</bold>",
+          "commission": "<boldRed>0% Provision</boldRed>",
+          "flexible": "Monatliche oder jährliche Pläne",
+          "customDomain": "Erhalte eine kostenlose Subdomain",
+          "support": "E-Mail-Support innerhalb von 24h",
+          "interactive": "<boldRed>Interaktive</boldRed> Menü-Navigation",
+          "switchMode": "Wechsle zwischen <bold>Tag- und Nachtmodus</bold>",
+          "addsOn": "Vorschau aller <bold>Erweiterungen</bold>",
+          "multilanguage": "Teste sofort <bold>mehrsprachige</bold> Menüs",
+          "24h": "wir antworten innerhalb von 24 Stunden",
+          "chat": "Nutze unsere trainierte KI für Fragen und Support",
+          "formular": "Formular ausfüllen – wir rufen dich an und holen das Beste heraus"
+        }
+      },
+      "homepage": {
+        "intro": "Willkommen bei <boldRed>My Restaurant Menu</boldRed>",
+        "title": "Digital & interaktiv",
+        "subtitle": "für dein Restaurant",
+        "claimer": "<bold>Entwickelt</bold>, um deine Verkäufe und Interaktionen zu <boldRed>steigern</boldRed>"
+      },
+      "features": {
+        "intro": "<bold>Funktionen</bold> von <boldRed>My Restaurant Menu</boldRed>",
+        "title": "Entdecke",
+        "subtitle": "wie unsere digitalen Menüs deinem Restaurant helfen"
+      },
+      "pricing": {
+        "intro": "<bold>Preise</bold> von <boldRed>My Restaurant Menu</boldRed>",
+        "title": "Flexible",
+        "subtitle": "Optionen passend zu deinen Bedürfnissen"
+      },
+      "demos": {
+        "intro": "<bold>Demos</bold> von <boldRed>My Restaurant Menu</boldRed>",
+        "_intro": "Sieh <boldRed>My Restaurant Menu</boldRed> in Aktion",
+        "title": "In Aktion",
+        "subtitle": "Erkunde Menüs und Funktionen live"
+      },
+      "contact": {
+        "intro": "<bold>Kontakt</bold> mit <boldRed>My Restaurant Menu</boldRed>",
+        "title": "Vernetze dich",
+        "subtitle": "Sprich mit unserem Team"
+      },
+      "academy": {
+        "intro": "<bold>Menu Academy</bold> von <boldRed>My Restaurant Menu</boldRed>",
+        "title": "Lernen & wachsen",
+        "subtitle": "Guides, Tipps und Best Practices"
+      },
+      "addons": {
+        "intro": "Verbessere dein <boldRed>digitales Menü</boldRed>",
+        "title": "Leistungsstarke Erweiterungen",
+        "subtitle": "erweitere mit Treueprogrammen, Reservierungen & mehr"
+      },
+      "about": {
+        "intro": "Über <boldRed>My Restaurant Menu</boldRed>",
+        "title": "Unsere Mission",
+        "subtitle": "Restaurants bei der Digitalisierung unterstützen"
+      },
+      "faqs": {
+        "intro": "<bold>FAQs</bold> zu <boldRed>My Restaurant Menu</boldRed>",
+        "title": "Fragen",
+        "subtitle": "wir haben die Antworten, die du brauchst"
+      }
+    },
+    "cards": {
+      "intro": {
+        "industries": {
+          "title": "Wir arbeiten mit Betrieben wie deinem"
+        },
+        "featureViews": {
+          "title": "Wie beeindruckend ist Ihre Speisekarte mit <boldRed>MyRestaurantMenu</boldRed>",
+          "description": "Unser smartes Menü passt sich jeder Situation an: Es erkennt automatisch die Internetgeschwindigkeit des Gastes und zeigt die beste Version an — Video, Bild oder Text. Und mit nur einem Klick können die Gäste selbst die Ansicht wechseln und Ihr Menü so genießen, wie sie es bevorzugen. Immer schnell, immer überzeugend."
+        }
+      },
+      "qrCode": {
+        "title": "QR-Code-Menü",
+        "description": "Teile dein Menü sofort mit einem einfachen QR-Scan. Gäste können es ansehen, ohne eine App herunterzuladen."
+      },
+      "tablet": {
+        "title": "Tablet-optimiert",
+        "description": "Perfekt für Tablets entwickelt. Gib deinem Team ein modernes, einfaches Tool für Bestellungen."
+      },
+      "giftCard": {
+        "title": "Geschenk- & Treuekarten",
+        "description": "Belohne Kunden mit digitalen Geschenk- und Stempelkarten. Einfach, praktisch und umweltfreundlich."
+      },
+      "marketing": {
+        "title": "Marketing-Tools",
+        "description": "Bewirb dein Geschäft mit integrierten Kampagnen und Angeboten. Erreiche mühelos mehr Gäste."
+      },
+      "multilingual": {
+        "title": "Mehrsprachig",
+        "description": "Biete Menüs in mehreren Sprachen an. Lass jeden Gast sich wie zuhause fühlen."
+      },
+      "comission": {
+        "title": "0% Provision",
+        "description": "Behalte 100% deiner Einnahmen. Keine versteckten Gebühren oder Verkaufsprovisionen."
+      },
+      "data": {
+        "title": "Datenhoheit",
+        "description": "Die Daten deiner Gäste gehören dir. Erhalte wertvolle Einblicke und baue Beziehungen ohne Dritte auf."
+      },
+      "abTesting": {
+        "title": "A/B-Tests",
+        "description": "Teste verschiedene Menüs, Preise oder Aktionen. Finde heraus, was bei deinen Gästen am besten ankommt."
+      },
+      "customization": {
+        "title": "Personalisierung",
+        "description": "Passe dein Menü an deine Marke an. Logos, Farben und Stile individuell gestalten."
+      },
+      "tableTurnover": {
+        "title": "Tischumsatz",
+        "description": "Beschleunige den Service und reduziere Wartezeiten. Digitale Menüs helfen, Tische schneller frei zu machen und Umsatz zu steigern."
+      },
+      "gastroMarket": {
+        "title": "Gastro Market",
+        "description": "Erstelle Menüs aller Restaurants deines Marktes in einem einzigen QR-Code."
+      },
+      "hotels": {
+        "title": "Hotels",
+        "description": "Stelle dein Menü sofort in der Sprache deiner Gäste bereit, sobald sie den QR-Code scannen."
+      },
+      "restaurants": {
+        "title": "Restaurants",
+        "description": "Stärke dein Ansehen mit einem professionellen digitalen Service."
+      },
+      "chains": {
+        "title": "Ketten",
+        "description": "Noch nie war es so einfach, Menüs an verschiedenen Standorten zu erstellen und zu pflegen."
+      },
+      "viewImage": {
+        "title": "Visuell und ansprechend mit Bildern",
+        "description": "Präsentieren Sie Ihre Gerichte mit hochwertigen Bildern. Perfekt bei stabiler Verbindung und der ideale erste Eindruck für Ihre Gäste."
+      },
+      "viewVideo": {
+        "title": "Fesselnde Videoschleife",
+        "description": "Erwecken Sie Ihre Speisekarte mit Videos in Dauerschleife zum Leben - wie ein GIF. Ideal bei schneller Verbindung für ein immersives Restauranterlebnis."
+      },
+      "viewText": {
+        "title": "Immer über Text zugänglich",
+        "description": "Bei eingeschränkter Geschwindigkeit passt sich Ihr Menü an und zeigt sofort Klartext an. Einfach, übersichtlich und jederzeit verfügbar - kein Gast bleibt außen vor."
+      }
+    },
+    "tabs": {
+      "dinning": {
+        "title": "Ein unvergessliches Restauranterlebnis",
+        "bullets": {
+          "01": "Perfekte Darstellung überall: Unsere adaptive Ansicht garantiert ein schnelles, attraktives Menü auf jedem Gerät und bei jeder Verbindung.",
+          "02": "Sofortiger Zugriff: Gäste scannen den QR-Code und das Menü öffnet sich sofort im Browser – keine App notwendig.",
+          "03": "Interaktion: Gäste können ihre Lieblingsgerichte mit einem Like markieren, dir wertvolles Feedback geben und sich verbunden fühlen.",
+          "04": "Immer aktuell: Verfügbarkeit und Preise in Echtzeit anzeigen – Frust und Missverständnisse vermeiden."
+        }
+      },
+      "management": {
+        "title": "Mühelose Verwaltung",
+        "bullets": {
+          "01": "Ein intuitives CMS, das sich anfühlt wie deine Lieblings-Social-Media-App. Keine technischen Kenntnisse erforderlich.",
+          "02": "Erstelle, bearbeite und organisiere Kategorien und Gerichte mit einer einfachen Drag-&-Drop-Oberfläche.",
+          "03": "Plane Menüs für bestimmte Zeiten des Tages (z. B. Frühstück, Mittagessen, Abendessen).",
+          "04": "Hebe Aktionen, neue Gerichte oder Empfehlungen des Küchenchefs visuell hervor, um den Umsatz zu steigern."
+        }
+      },
+      "customization": {
+        "title": "Leistungsstarke Anpassung",
+        "bullets": {
+          "01": "Passe das Menü an deine Marke an – mit eigenen Farben, Schriften und deinem Logo.",
+          "02": "Wähle aus verschiedenen Layouts, um deine Speisen und Getränke optimal zu präsentieren.",
+          "03": "Füge Informationen zu Allergenen, Ernährungslabels (vegan, glutenfrei) und Kalorien einfach hinzu.",
+          "04": "Schaffe ein einheitliches Markenerlebnis ab dem ersten Moment."
+        }
+      },
+      "engagement": {
+        "title": "Treue & Interaktion",
+        "bullets": {
+          "01": "Biete digitale Treuekarten an, um wiederkehrende Besuche zu fördern. 'Kaufe 5 Kaffees, der 6. ist gratis!'",
+          "02": "Verkaufe digitale Geschenkkarten direkt über dein Menü – ein perfekter Umsatzbooster.",
+          "03": "Lass Gäste Profile erstellen, um Lieblingsgerichte zu speichern und Belohnungen zu verfolgen.",
+          "04": "Sammle direktes Feedback und baue eine Community rund um deine Marke auf."
+        }
+      },
+      "test30days": {
+        "title": "Teste My Restaurant Menu 30 Tage kostenlos",
+        "bullets": {
+          "01": "Während deiner 30-tägigen Testphase erstellen wir eine Beispiel-App für dich. Sie enthält einen kleinen Teil deines Menüs. Du behältst die Kontrolle und kannst die Inhalte mit unserem modularen System beliebig ergänzen."
+        }
+      },
+      "qrCode": {
+        "title": "Intelligenter QR-Code für ein modernes Restauranterlebnis",
+        "bullets": {
+          "01": "Keine App-Downloads erforderlich - Ihre Gäste scannen einfach und sehen die Speisekarte.",
+          "02": "Schnelles und zuverlässiges Laden für ein reibungsloses Restauranterlebnis.",
+          "03": "Erstellen und verwalten Sie QR-Codes direkt in der Plattform.",
+          "04": "Passen Sie den QR-Code an das Branding Ihres Restaurants an.",
+          "05": "Sparen Sie Druckkosten, indem Sie Ihre Speisekarte in Echtzeit aktualisieren.",
+          "06": "Bieten Sie eine moderne, kontaktlose Lösung, die Gäste begeistert."
+        }
+      },
+      "forms": {
+        "lead": {
+          "title": "Fordern Sie noch heute Ihre kostenlose Beratung an",
+          "bullets": {
+            "01": "Füllen Sie das Formular aus, und unser Team wird sich in Kürze mit Ihnen in Verbindung setzen, um mehr über Ihr Restaurant und Ihre Bedürfnisse zu erfahren.",
+            "02": "Wir zeigen Ihnen, wie unsere digitale Speisekarte Ihre Abläufe vereinfachen und mehr Kunden anziehen kann.",
+            "03": "Keine Verpflichtung - nur ein kurzes, freundliches Gespräch, um die beste digitale Menülösung für Ihr Unternehmen zu finden.",
+            "04": "Beginnen Sie noch heute, das Erlebnis Ihres Restaurants mit einer einfachen, modernen und professionellen Speisekarte zu verbessern."
+          }
+        },
+        "trial": {
+          "title": "Starten Sie noch heute Ihre 30-tägige kostenlose Testphase",
+          "bullets": {
+            "01": "Melden Sie sich in nur wenigen Sekunden an - keine Kreditkarte erforderlich.",
+            "02": "Erhalten Sie vollen Zugriff auf unsere digitale Menüplattform und entdecken Sie alle Premiumfunktionen 30 Tage lang.",
+            "03": "Erleben Sie, wie unsere Lösung Ihre Restaurantabläufe optimieren und mehr Kunden anziehen kann.",
+            "04": "Genießen Sie risikofreies Testen - jederzeit kündbar, keine Verpflichtungen.",
+            "05": "Starten Sie noch heute Ihre kostenlose Testphase und sehen Sie, wie einfach es ist, das Erlebnis Ihres Restaurants zu modernisieren."
+          }
+        }
+      }
+    },
+    "faq": {
+      "title": "Häufige Fragen",
+      "description": "Du kannst ein Formular ausfüllen, damit wir dir ein maßgeschneidertes Angebot machen. Oder ruf direkt an bzw. kontaktiere unseren Gründer.",
+      "questions": {
+        "howLong": {
+          "question": "Wie lange dauert es, bis mein digitales Menü fertig ist?",
+          "answer": "Sobald wir deine Menüdetails und Branding-Materialien (Logo, Farben, Bilder) erhalten haben, ist dein digitales Menü in der Regel in 3–5 Werktagen fertig. Wir sorgen dafür, dass alles reibungslos funktioniert, bevor du es erhältst."
+        },
+        "responsiveDesign": {
+          "question": "Was bedeutet eine responsive Web-App?",
+          "answer": "Responsive bedeutet, dass sich dein digitales Menü automatisch an jedes Gerät anpasst — Smartphone, Tablet oder Desktop. Gäste genießen eine flüssige Erfahrung ohne App-Download."
+        },
+        "designChanges": {
+          "question": "Welche Designänderungen sind möglich?",
+          "answer": "Wir passen Farben, Schriften und Layouts an dein Branding an. Du kannst auch Fotos hinzufügen, beliebte Gerichte hervorheben und dein Menü jederzeit aktualisieren. Für erweiterte Anpassungen unterstützt dich unser Team."
+        },
+        "expect30days": {
+          "question": "Was kann ich in den ersten 30 Tagen erwarten?",
+          "answer": "Du kannst die Plattform 30 Tage lang kostenlos testen. Dazu gehört, dein echtes Menü hochzuladen, die Interaktionen der Gäste zu sehen und Design-Anpassungen anzufordern. Ohne Risiko, ohne Verpflichtung — wir wollen, dass du 100% überzeugt bist."
+        },
+        "updateMyself": {
+          "question": "Kann ich mein Menü selbst aktualisieren?",
+          "answer": "Ja! Du erhältst Zugriff auf ein einfaches Admin-Dashboard, in dem du Gerichte, Preise oder Fotos sofort ändern kannst. Keine technischen Kenntnisse nötig."
+        },
+        "appDownload": {
+          "question": "Müssen meine Gäste eine App herunterladen?",
+          "answer": "Nein, es sind keine Downloads nötig. Dein Menü ist über einen QR-Code oder Direktlink sofort im Browser abrufbar."
+        },
+        "customerSupport": {
+          "question": "Ist Kundensupport inklusive?",
+          "answer": "Natürlich. Wir bieten Support per E-Mail, Telefon oder Live-Chat. Die meisten Anfragen werden innerhalb von 24 Stunden gelöst."
+        },
+        "secure": {
+          "question": "Wie sicher ist die Plattform?",
+          "answer": "Deine Daten und die deiner Gäste sind mit branchenüblichen Sicherheitsprotokollen geschützt. Zudem sorgen wir mit regelmäßigen Updates und Monitoring für Zuverlässigkeit."
+        }
+      }
+    },
+    "contact": {
+      "title": "Hast du noch weitere Fragen?",
+      "description": "Fülle unser kurzes Formular aus und wir melden uns mit einer maßgeschneiderten Lösung. Lieber direkt sprechen? Ruf an oder kontaktiere unseren Gründer persönlich.",
+      "founder": "Founder of"
+    },
+    "carouselText": {
+      "benefits": {
+        "title": "Vorteile auf einen Blick",
+        "clients": {
+          "title": "Vorteile für deine Gäste",
+          "bullet01": "Sofortiger Zugriff auf dein Menü per QR-Code.",
+          "bullet02": "Immer aktuell mit echten Preisen und Gerichten.",
+          "bullet03": "Flüssiges Browsen mit Fotos und Videos.",
+          "bullet04": "Mehrsprachige Unterstützung für alle Gäste.",
+          "bullet05": "Schnell, hygienisch und kontaktlos."
+        },
+        "business": {
+          "title": "Vorteile für dein Geschäft",
+          "bullet01": "Aktualisiere Menüs jederzeit ohne Nachdrucke.",
+          "bullet02": "Hebe Angebote hervor und steigere deinen Umsatz.",
+          "bullet03": "Erreiche neue Touristen und lokale Gäste.",
+          "bullet04": "Spare Kosten und reduziere Papiermüll.",
+          "bullet05": "Sammle Einblicke zur Leistungsverbesserung."
+        },
+        "employees": {
+          "title": "Vorteile für dein Personal",
+          "bullet01": "Vereinfache die Arbeit mit einem leicht zu bedienenden System.",
+          "bullet02": "Reduziere Bestellfehler und Missverständnisse.",
+          "bullet03": "Verbringe mehr Zeit mit Gästeservice.",
+          "bullet04": "Erhalte Sofort-Benachrichtigungen über neue Bestellungen.",
+          "bullet05": "Genieße schnellere und reibungslosere Abläufe."
+        },
+        "technical": {
+          "title": "Technische Vorteile",
+          "bullet01": "Cloud-Plattform mit 99,9% Verfügbarkeit.",
+          "bullet02": "Funktioniert fehlerfrei auf jedem Mobilgerät.",
+          "bullet03": "Analyse-Tools zur Leistungsüberwachung.",
+          "bullet04": "Einfache Integration mit Kassensystemen.",
+          "bullet05": "Sichere Daten und zuverlässiger Schutz."
+        }
+      },
+      "reviews": {
+        "title": "Das sagen unsere Kunden über <boldRed>My Restaurant Menu</boldRed>",
+        "pizzeria": {
+          "title": "Pizzeria Mario",
+          "bullet01": "„Mit My Restaurant Menu können unsere Gäste sofort scannen und bestellen. Kein Warten mehr auf gedruckte Menüs – und wir haben deutlich mehr Tischumsätze und Verkäufe.“"
+        },
+        "foodMarket": {
+          "title": "FreshTown Food Market",
+          "bullet01": "„Früher war das Management mehrerer Restaurant-Menüs ein Kopfzerbrechen. Jetzt ist alles an einem Ort, leicht zu aktualisieren – und unsere Besucher lieben es, alle Optionen mit einem einzigen QR-Code zu sehen.“"
+        },
+        "restaurantFoodMarket": {
+          "title": "La Cocina @ City Market",
+          "bullet01": "„In einem belebten Food Market zählt Sichtbarkeit. Dank My Restaurant Menu können wir unser Menü in Minuten verwalten und direkt im digitalen Marktsystem bewerben — das bringt uns jeden Tag mehr Gäste.“"
+        }
+      },
+      "steps": {
+        "title": "Schnelle Umsetzung in nur 3 Schritten",
+        "step01": {
+          "title": "01. Onboarding",
+          "bullet01": "Kurzes Einführungsgespräch, um die Bedürfnisse deines Restaurants zu verstehen.",
+          "bullet02": "Sende uns dein Menü, Branding und Präferenzen.",
+          "bullet03": "Persönlicher Support für einen reibungslosen Start."
+        },
+        "step02": {
+          "title": "02. Erstellung",
+          "bullet01": "Wir richten dein digitales Menü in nur wenigen Tagen ein.",
+          "bullet02": "Passe Design, Aktionen und Treue-Tools einfach in unserem CMS an.",
+          "bullet03": "Überprüfe alles, bevor es live geht."
+        },
+        "step03": {
+          "title": "03. Bereit zum Start",
+          "bullet01": "Starte sofort mit deinem einzigartigen QR-Code und teile ihn mit deinen Gästen.",
+          "bullet02": "Dein Menü funktioniert auf jedem Gerät, in jeder Sprache - ohne App-Download.",
+          "bullet03": "Genieße von Tag eins mehr Interaktion, schnelleren Service und höhere Umsätze."
+        }
+      }
+    },
+    "pricing": {
+      "tabs": {
+        "title": "<boldRed>Zuerst</boldRed> wähle aus, welche Art von Geschäft du hast",
+        "description": "Denke daran, dass du deinen Plan jederzeit unterwegs ändern kannst, <bold>Add-ons</bold> mit den gewünschten Funktionen erhältst. Unsere Pläne sind flexibel und wir können <boldRed>wachsen</boldRed> und gleichzeitig <boldRed>gemeinsam</boldRed> vorankommen.",
+        "restaurants": "Restaurants",
+        "restaurantChains": "Restaurantketten",
+        "foodMarkets": "Food Markets",
+        "festivals": "Festivals"
+      },
+      "common": {
+        "perMonth": "/ pro Monat",
+        "saveMoney": "Spare mit jährlicher Zahlung",
+        "multilingual2": "Übersetzungen in 2 Sprachen",
+        "multilingual4": "Übersetzungen in 4 Sprachen",
+        "multilingual6": "Übersetzungen in 6 Sprachen",
+        "qrCode": "QR-Code-Erstellung",
+        "customization": "Anpassbares Design",
+        "url": "Eigene URL",
+        "images": "Bilder in der Speisekarte",
+        "video": "Videos in der Speisekarte",
+        "booking": "Reservierungssystem",
+        "giftCard": "Stempelkarten-System",
+        "clientSignIn": "Kunden-Login",
+        "popUp": "Werbe-Pop-ups",
+        "emailMarketing": "E-Mail-Marketing",
+        "multiLocation": "<boldRed>Multi-Standort Unterstützung</boldRed>",
+        "centralDashboard": "<boldRed>Zentrales Dashboard</boldRed>",
+        "branchManagement": "<boldRed>Filialverwaltung</boldRed>",
+        "sharedLoyalty": "<boldRed>Gemeinsames Treuesystem</boldRed>",
+        "bulkDiscounts": "<boldRed>Mengenrabatte</boldRed>",
+        "chainAnalytics": "<boldRed>Kettenweite Analysen</boldRed>"
+      },
+      "restaurants": {
+        "intro": {
+          "title": "Flexible Preise für <boldRed>Restaurants</boldRed>",
+          "description": "Wählen Sie den Plan, der zu Ihrem Restaurant passt. Von kleinen Cafés bis zu großen Ketten – unsere Pakete digitalisieren Ihre Speisekarte, ziehen mehr Gäste an und optimieren den Service."
+        },
+        "plan01": {
+          "title": "Paket S",
+          "description": "Perfekt für kleine Restaurants oder Cafés, die ihre ersten Schritte ins digitale Menü wagen. Einfach und mit den wichtigsten Funktionen jederzeit verfügbar.",
+          "price": {
+            "monthly": "3,99 €",
+            "annual": "5,99 €"
+          }
+        },
+        "plan02": {
+          "title": "Paket M",
+          "description": "Ideal für wachsende Restaurants, die mehr Anpassung und Flexibilität wünschen. Verbessern Sie Ihr Menü mit Bildern und schaffen Sie ein ansprechenderes Erlebnis.",
+          "price": {
+            "monthly": "9,99 €",
+            "annual": "15,99 €"
+          }
+        },
+        "plan03": {
+          "title": "Paket L",
+          "description": "Eine Komplettlösung für Restaurants, die auffallen möchten. Bieten Sie multimediale Menüs, einfache Reservierungen und ein nahtloses digitales Erlebnis.",
+          "price": {
+            "monthly": "14,99 €",
+            "annual": "29,99 €"
+          }
+        },
+        "plan04": {
+          "title": "Paket XL",
+          "description": "Für stark frequentierte Restaurants oder Ketten. Nutzen Sie Premium-Tools für Reservierungen, Videos und ein beeindruckendes Markenerlebnis.",
+          "price": {
+            "monthly": "24,99 €",
+            "annual": "39,99 €"
+          }
+        }
+      },
+      "restaurantChains": {
+        "intro": {
+          "title": "Skalierbare Preise für <boldRed>Restaurantketten</boldRed>",
+          "description": "Ob mehrere Standorte oder eine landesweite Kette - unsere Pläne wachsen mit Ihrem Geschäft. Zentralisieren Sie Ihre Abläufe, sichern Sie Einheitlichkeit über alle Filialen und sparen Sie mit Mehrstandort-Rabatten."
+        },
+        "plan01": {
+          "title": "Chain Starter",
+          "description": "Ideal für bis zu 3 Standorte, die ihre digitale Präsenz vereinheitlichen möchten. Erhalten Sie essenzielle Funktionen zu einem reduzierten Mehrstandort-Tarif.",
+          "price": {
+            "monthly": "19,99 €",
+            "annual": "24,99 €"
+          }
+        },
+        "plan02": {
+          "title": "Chain Growth",
+          "description": "Für wachsende Ketten mit bis zu 10 Standorten. Profitieren Sie von mehr Anpassung und visuellen Möglichkeiten bei voller Kostenkontrolle.",
+          "price": {
+            "monthly": "49,99 €",
+            "annual": "74,99 €"
+          }
+        },
+        "plan03": {
+          "title": "Chain Pro",
+          "description": "Für etablierte Ketten mit bis zu 25 Standorten. Zentralisieren Sie Reservierungen, fügen Sie Videos hinzu und bieten Sie ein erstklassiges digitales Restauranterlebnis.",
+          "price": {
+            "monthly": "99,99 €",
+            "annual": "139,99 €"
+          }
+        },
+        "plan04": {
+          "title": "Chain Enterprise",
+          "description": "Unbegrenzte Standorte, erweiterter Support und alle Premium-Funktionen inklusive. Perfekt für landesweite Ketten, die volle Skalierbarkeit und Kontrolle benötigen.",
+          "price": {
+            "monthly": "199,99 €",
+            "annual": "249,99 €"
+          }
+        }
+      }
+    },
+    "promo": {
+      "setupFree": "Spare heute 120 € — Menüeinrichtung KOSTENLOS für begrenzte Zeit"
+    },
+    "salesConsultant": {
+      "title": "Lernen Sie Ihren KI-Verkaufsberater kennen",
+      "description": "Unser KI-gestützter Verkaufsberater hilft Ihnen, den perfekten Plan für Ihr Restaurant zu finden. Erhalten Sie personalisierte Empfehlungen basierend auf Ihren Bedürfnissen und Ihrem Budget."
+    }
+  },
+  "ui": {
+    "buttons": {
+      "demo": "Jetzt Live-Demo ansehen",
+      "promo": "Starte die 30-tägige Gratis-Testphase",
+      "demoPiza": "Demo Pizzeria",
+      "demoMarket": "Demo Food Market",
+      "chatbot": "Chat jetzt öffnen",
+      "formular": "Formular hier ausfüllen",
+      "features": "Weitere Funktionen ansehen",
+      "chatAssistant": "Live-Chat mit dem KI-Assistenten",
+      "included": "Mehr Infos anzeigen",
+      "select": "Plan auswählen",
+      "monthly": "Monatlich",
+      "annual": "Jährlich",
+      "lead": "Einen Termin vereinbaren",
+      "trial": "30 Tage kostenlos",
+      "register": "Registrieren",
+      "issue": "Ein Problem melden"
+    }
+  },
+  "forms": {
+    "nameLabel": "Name",
+    "namePlaceholder": "Dein Name",
+    "emailLabel": "E-Mail",
+    "emailPlaceholder": "Deine bevorzugte E-Mail-Adresse",
+    "phoneLabel": "Telefonnummer",
+    "phonePlaceholder": "Deine Telefonnummer",
+    "countryLabel": "Land",
+    "countryPlaceholder": "Wo sich dein Restaurant befindet",
+    "restaurantNameLabel": "Name des Restaurants",
+    "restaurantNamePlaceholder": "Der Name deines Restaurants",
+    "locationLabel": "Standort",
+    "locationPlaceholder": "Standort deines Restaurants",
+    "menuTypeLabel": "Wie viele Restaurants benötigen eine Speisekarte?",
+    "menuTypePlaceholder": "Ist es für ein einzelnes oder mehrere Restaurants?",
+    "restaurantTypeLabel": "Art des Restaurants",
+    "restaurantTypePlaceholder": "Pizzeria, Gourmet, traditionell...",
+    "accept": "Akzeptieren",
+    "decline": "Ablehnen",
+    "termsUse": "Lies und akzeptiere unsere Nutzungsbedingungen, um den Chat fortzusetzen.",
+    "submit": "Senden",
+    "cancel": "Abbrechen",
+    "required": "Dieses Feld ist erforderlich",
+    "invalidEmail": "Geben Sie eine gültige E-Mail-Adresse ein",
+    "invalidPhone": "Geben Sie eine gültige Telefonnummer ein"
+  },
+  "chatbot": {
+    "notUnderstood": "Entschuldigung, ich habe deine Frage nicht verstanden.",
+    "suspicious": "⚠️ Deine Nachrichten wirken verdächtig, daher kann ich das Gespräch gerade nicht fortsetzen.",
+    "header": "Chat-Support",
+    "placeholder": "Schreibe deine Nachricht...",
+    "send": "Senden",
+    "export": "Exportieren",
+    "responses": {
+      "intros": [
+        "Natürlich! ",
+        "Absolut! ",
+        "Gute Frage 👍 ",
+        "Gerne erkläre ich das: ",
+        "Klar doch! ",
+        "Guter Punkt — sehen wir uns das an 👇 ",
+        "Kein Problem, so funktioniert es: ",
+        "Freut mich, das zu erklären 🙂"
+      ],
+      "outros": [
+        " Möchtest du mehr Details?",
+        " Soll ich dir zeigen, wie es praktisch funktioniert?",
+        " Das ist eine unserer beliebtesten Funktionen 🚀",
+        " Beantwortet das deine Frage?",
+        " Soll ich dir ein Beispiel zeigen?",
+        " Viele Gastronomen lieben diese Funktion 🙌",
+        " Soll ich es Schritt für Schritt erklären?",
+        " Darf ich dir einen Tipp geben, wie du das Beste herausholst?"
+      ],
+      "pricingOutro": [
+        " Und denk daran: Unsere Pläne wachsen mit deinem Restaurant 💡",
+        " Außerdem sind unsere Preise flexibel – du zahlst nur, was du wirklich brauchst 💸",
+        " Am besten: Du kannst klein anfangen und Funktionen später hinzufügen 🚀",
+        " Nicht vergessen: Jahrespläne beinhalten zusätzliche Rabatte 😉"
+      ],
+      "supportOutro": [
+        " Keine Sorge, unser Team antwortet meist in weniger als 24 Stunden ⏱️",
+        " Wenn du uns brauchst, sind wir nur eine E-Mail entfernt 📧",
+        " Unser Support ist schnell, freundlich und immer hilfsbereit 🙌",
+        " Die meisten Fragen werden am selben Tag beantwortet, oft in nur wenigen Stunden ⚡"
+      ]
+    },
+    "intents": {
+      "greeting": [
+        "Hallo 👋! Wie kann ich dir heute helfen?",
+        "Willkommen 🙌 Möchtest du mehr über My Restaurant Menu erfahren?",
+        "Hi 😊 Suchst du Infos zu Funktionen oder Preisen?",
+        "Hey! 👋 Neugierig, wie My Restaurant Menu deinem Restaurant helfen kann?",
+        "Schön dich zu sehen! 🍽️ Womit sollen wir anfangen?"
+      ],
+      "thanks": [
+        "Gern geschehen! 🙌",
+        "Freut mich zu helfen! 😃",
+        "Sehr gerne — hast du noch weitere Fragen?",
+        "Jederzeit! 🤗",
+        "Schön, dass ich helfen konnte — willst du noch etwas wissen?",
+        "Ich bin immer hier, falls du mich brauchst! 👌"
+      ],
+      "goodbye": [
+        "Bis bald! 🍽️",
+        "Tschüss, einen tollen Tag in deinem Restaurant 🚀",
+        "Mach’s gut, bis bald 👋",
+        "Bis dann — viele zufriedene Gäste 🌟",
+        "Wir sehen uns! 👌"
+      ],
+      "support": [
+        "Keine Sorge, ich kann dich mit unserem Team verbinden. Kannst du bitte deine Kontaktdaten angeben?",
+        "Ich helfe dir gerne. Kannst du uns deine E-Mail oder Telefonnummer geben?",
+        "Wenn du magst, leite ich das direkt an unser Support-Team weiter 📩 — kannst du uns deinen Kontakt mitteilen?",
+        "Unser Team meldet sich schnell, wenn du uns deine E-Mail oder Nummer gibst 👌"
+      ]
+    }
+  }
+}

@@ -1,0 +1,70 @@
+// src/styles/_global.fonts.scss
+
+
+@use './_base.variables.scss' as *;
+@use './_base.mixins.scss' as *;
+
+
+// FONT FACE
+@font-face {
+    font-family: 'PT Sans';
+    src:
+        url('../assets/fonts/PTSans-Regular.woff2') format('woff2'),
+        url('../assets/fonts/PTSans-Regular.woff') format('woff'),
+        url('../assets/fonts/PTSans-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-size: 18px;
+    font-display: optional;
+}
+@font-face {
+    font-family: 'PT Sans';
+    src:
+        url('../assets/fonts/PTSans-SemiBold.woff2') format('woff2'), // O PTSans-Bold.woff2
+        url('../assets/fonts/PTSans-SemiBold.woff') format('woff'),  // O PTSans-Bold.woff
+        url('../assets/fonts/PTSans-SemiBold.ttf') format('truetype'); // O PTSans-Bold.ttf
+    font-weight: 700;
+    font-style: normal;
+    font-display: optional;
+}
+@font-face {
+    font-family: 'PT Serif';
+    src:
+        url('../assets/fonts/PTSerif-Regular.woff2') format('woff2'),
+        url('../assets/fonts/PTSerif-Regular.woff') format('woff'),
+        url('../assets/fonts/PTSerif-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-size: 18px;
+    font-display: optional;
+}
+
+// FONT SIZE helpers
+.font-larger {
+    @include fontSans(1.5rem, 600, inherit);
+}
+.font-large{
+    @include fontSans(1.25rem, 600, inherit);
+}
+.font-normal {
+    @include fontSans(1rem, 400, inherit);
+}
+.font-small {
+    @include fontSans(0.85rem, 400, inherit);
+}
+.font-smaller {
+    @include fontSans(0.75rem, 400, inherit);
+}
+
+// FONT WEIGHT helpers
+.font-bold {
+    font-weight: 600;
+}
+.font-normal {
+    font-weight: 400;
+}
+
+// FONT COLOR helpers
+.font-red {
+    color: $COLORS-red-900;
+}

@@ -1,0 +1,52 @@
+// src/App.scss
+@use './styles/_base.general.scss';
+@use './styles/_base.mixins.scss' as *;
+@use './styles/_base.variables.scss' as *;
+
+@use './styles/_global.fonts.scss' as *;
+@use './styles/_global.helpers.scss' as *;
+@use './styles/_global.layouts.scss' as *;
+
+@use './styles/com-ui.card.scss' as *;
+
+:root {
+    background-color: $COLORS-base-100;
+}
+
+html {
+    scroll-behavior: smooth;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    overflow-x: hidden;
+    background-color: $COLORS-base-100;
+}
+body {
+    display: block;
+    background-color: $COLORS-base-100;
+    @include fontSans(18px, Regular, $COLORS-base-900);
+    width: 100dvw;
+    overflow-x: hidden;
+}
+
+// Helpers to improve UX
+html {
+    // avoid blue highlight on phones click
+    -webkit-tap-highlight-color: transparent;
+
+    // avoid text/images selection
+    user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-touch-callout: none;
+    img, picture, video, svg, canvas {
+        user-select: none;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+
+        -webkit-user-drag: none;
+        -webkit-touch-callout: none;
+    }
+}

@@ -1,0 +1,150 @@
+// src/styles/com-ui.button.scss
+
+
+@use './_base.variables.scss' as *;
+@use './_base.mixins.scss' as *;
+
+
+button:disabled {
+    opacity: 0.7;
+    cursor: not-allowed;
+    position: relative;
+}
+button:hover {
+    border-color: transparent;
+}
+button:focus, button:focus-visible {
+    outline: 0;
+}
+.disabled {
+    cursor: not-allowed;
+    position: relative;
+}
+
+.badge {
+    position: absolute;
+    top: 5px;
+    right: 20%;
+    background-color: $COLORS-red-900;
+    color: $COLORS-base-100;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    font-weight: bold;
+}
+.badge.bottom-nav {
+    top: -6px;
+    right: -8px;
+}
+.badge.flex {
+    position: relative;
+    top: auto;
+    right: auto;
+}
+
+// ### Styles for ./components/ui/button
+
+// Container of buttons - this class wraps the component
+.buttons-container {
+    @include displayFlex(row wrap, flex-start, center);
+    gap: 1rem;
+}
+
+// Styles button solid
+.btn-solid-dark {
+    @include button($COLORS-base-900, $COLORS-base-100);
+}
+.btn-solid-dark:hover {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.25);
+}
+.btn-solid-light {
+    @include button($COLORS-base-100, $COLORS-base-900);
+}
+.btn-solid-light:hover {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.25);
+}
+.btn-solid-red {
+    @include button($COLORS-red-900, $COLORS-base-100);
+}
+.btn-solid-red:hover {
+    background-color: transparent;
+    background-image: $COLORS-gradient-red-diagonal;
+}
+
+
+
+// Style button with gradient color background
+.btn-gradient-red {
+    @include button(transparent, $COLORS-base-100);
+    background-image: $COLORS-gradient-red-diagonal;
+}
+.btn-gradient-light {
+    @include button(transparent, $COLORS-base-900);
+    background-image: $COLORS-gradient-light-diagonal;
+}
+
+// Styles button with border
+.btn-border-dark {
+    @include buttonBorder(transparent, $COLORS-base-900, $COLORS-base-900);
+}
+.btn-border-light {
+    @include buttonBorder(transparent, $COLORS-base-100, $COLORS-base-100);
+}
+.btn-border-red {
+    @include buttonBorder(transparent, $COLORS-red-900, $COLORS-red-900);
+}
+
+// Style button always inner shadow
+.btn-inner-shadow {
+    box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.25);
+}
+
+.btn-full-width {
+    width: 100%;
+    padding: 0.3rem 0;
+    max-width: 700px;
+}
+
+// Style button with 2 lines
+.btn-subtitel {
+    flex-flow: column nowrap;
+}
+// Style for buttons with text+icon
+.btn-icon-inline {
+    gap: 1rem;
+}
+ // Styles for buttons with only icon
+.btn-solid-dark-icon {
+    @include button($COLORS-base-900, $COLORS-base-100);
+    padding: 0;
+    height: 2rem;
+    width: 2rem;
+    .icon {
+        height: 1rem;
+        width: 1rem;
+    }
+}
+.btn-solid-light-icon {
+    @include button($COLORS-base-100, $COLORS-base-900);
+    padding: 0;
+    height: 2rem;
+    width: 2rem;
+    .icon {
+        height: 1rem;
+        width: 1rem;
+    }
+}
+.btn-solid-red-icon {
+    @include button($COLORS-red-900, $COLORS-base-100);
+    padding: 0;
+    height: 2rem;
+    width: 2rem;
+    .icon {
+        height: 1rem;
+        width: 1rem;
+    }
+}

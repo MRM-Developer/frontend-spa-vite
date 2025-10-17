@@ -1,0 +1,108 @@
+@use './_base.variables.scss' as *;
+@use './_base.mixins.scss' as *;
+
+// Shared form styles for chat and pages
+.chat-options {
+    @include displayFlex(column wrap, flex-start, stretch);
+    gap: 0.4rem;
+    width: 100%;
+    .chat-option {
+        border: 1px solid rgba(0,0,0,0.06);
+        background: linear-gradient(90deg, rgba(229,35,54,1), rgba(200,20,40,1));
+        color: white;
+        padding: 0.55rem 0.8rem;
+        border-radius: 8px;
+        cursor: pointer;
+        transition: transform 0.12s ease, box-shadow 0.12s ease;
+        box-shadow: 0 4px 10px rgba(0,0,0,0.06);
+        &:hover {
+            transform: translateY(-3px);
+        }
+    }
+}
+
+/* Generic form container used across chat forms */
+.form-container {
+    @include displayFlex(column nowrap, flex-start, stretch);
+    padding: 0.6rem 0.9rem 1rem !important;
+    background: $COLORS-base-200;
+    width: 100%;
+    label {
+        @include fontSans(0.75rem, 400, inherit);
+        display: block;
+    }
+    input, textarea, select {
+        display: block;
+        box-sizing: border-box;
+        width: 100%;
+        background: $COLORS-base-100;
+        padding: 0.6rem 0.9rem;
+        border-radius: 8px;
+        border: 1px solid rgba(0,0,0,0.06);
+        word-wrap: break-word;
+        overflow-wrap: break-word;
+        word-break: break-word;
+        max-width: 100%;
+        white-space: pre-wrap;
+    }
+    label {
+        margin-top: 1.5rem;
+        margin-bottom: 0.5rem;
+    }
+    label:first-of-type {
+        margin-top: 0;
+    }
+    footer {
+        margin-top: 1.8rem;
+        .buttons-container {
+            gap: 0.5rem;
+        }
+    }
+    /* Inline validation error */
+    .form-error {
+        color: $COLORS-red-900;
+        font-size: 0.8rem;
+        margin-top: 0.25rem;
+    }
+
+    .form-error-global {
+        color: $COLORS-red-900;
+        background: rgba(229,35,54,0.06);
+        border: 1px solid rgba(229,35,54,0.12);
+        padding: 0.6rem 0.8rem;
+        border-radius: 8px;
+        margin-bottom: 0.6rem;
+        font-size: 0.9rem;
+    }
+}
+
+/* Message input in chat footer */
+.chatbox-footer input {
+    flex: 1;
+    border: none;
+    padding: 0.8rem 0.5rem;
+    min-height: 44px;
+    outline: none;
+    color: $COLORS-base-900;
+    background-color: transparent;
+    caret-color: $COLORS-base-900;
+}
+
+/* Forms used in tabs */
+.section-tabs {
+    .form-container {
+        padding: 1.8rem !important;
+        border-radius: 1.2rem;
+    }
+    @media (min-width: 720px) {
+        .form-container {
+            width: calc((100dvw - 5rem) / 2);
+            max-width: 650px;
+            footer {
+                .buttons-container {
+                    width: 100%;
+                }
+            }
+        }
+    }
+}

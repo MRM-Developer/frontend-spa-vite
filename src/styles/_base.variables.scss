@@ -1,0 +1,32 @@
+// src/styles/_base.variables.scss
+
+
+// ### COLOR VARIABLES
+// COLORS-base
+$COLORS-base-100: #F8F9FA;
+$COLORS-base-200: #E9ECEF;
+$COLORS-base-300: #DEE2E6;
+$COLORS-base-400: #CED4DA;
+$COLORS-base-500: #ADB5BD;
+$COLORS-base-600: #6C757D;
+$COLORS-base-700: #495057;
+$COLORS-base-800: #343A40;
+$COLORS-base-900: #212529;
+// COLORS-red
+$COLORS-red-100: #FFBFBF;
+$COLORS-red-200: #FFAAAA;
+$COLORS-red-300: #FF9999;
+$COLORS-red-400: #FF9393;
+$COLORS-red-500: #FF9191;
+$COLORS-red-600: #F56C6C;
+$COLORS-red-700: #ED4C4C;
+$COLORS-red-800: #D63636;
+$COLORS-red-900: #E52336;
+// COLORS-yellow
+$COLORS-yellow-tertiary: #FFC107;
+// COLORS-gradient
+$COLORS-gradient-light: linear-gradient(to left, $COLORS-base-100, $COLORS-base-400);
+$COLORS-gradient-light-diagonal: linear-gradient(225deg, $COLORS-base-100, $COLORS-base-300);
+$COLORS-gradient-dark: linear-gradient(to left, $COLORS-base-900, $COLORS-base-600);
+$COLORS-gradient-red: linear-gradient(to left, $COLORS-red-700, $COLORS-red-900);
+$COLORS-gradient-red-diagonal: linear-gradient(225deg, $COLORS-red-700, $COLORS-red-900);

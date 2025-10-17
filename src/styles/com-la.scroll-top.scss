@@ -1,0 +1,49 @@
+// src/styles/com-la.chat-badge.scss
+
+
+@use './_base.variables.scss' as *;
+@use './_base.mixins.scss' as *;
+
+
+// ### Styles for ./components/layout/ScrollTopButton
+
+.btn-scroll-top {
+    @include displayFlex(row wrap, center, center);
+    position: fixed;
+    left: 10px;
+    bottom: 10px;
+    width: 50px;
+    height: 50px;
+    padding: 1rem;
+    border: none;
+    border-radius: 100%;
+    background-color: $COLORS-base-200;
+    box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.2) inset;
+        -webkit-box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.2) inset;
+        -moz-box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.2) inset;
+        z-index: 10;
+    box-sizing: border-box;
+    cursor: pointer;
+    // hover bounce
+    &:hover {
+        animation: bounce 0.6s ease;
+    }
+    .icon {
+        object-fit: contain;
+        width: 100%;
+        height: 100%;
+        transform: rotate(180deg);
+    }
+    @media (min-width: 650px) {
+        left: 30px;
+        bottom: 15px;
+    }
+}
+
+@keyframes bounce {
+    0%   { transform: translateY(0); }
+    30%  { transform: translateY(-8px) scale(1.05); }
+    50%  { transform: translateY(0); }
+    70%  { transform: translateY(-4px); }
+    100% { transform: translateY(0); }
+}

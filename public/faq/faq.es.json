@@ -1,0 +1,42 @@
+[
+    {
+        "id": "pricing",
+        "q": "¿Cuánto cuesta el servicio?",
+        "a": "Trabajamos con una suscripción básica más un pago inicial por la configuración. Las funciones adicionales como más idiomas, videos o un sistema de reservas están disponibles como complementos (add-ons)."
+    },
+    {
+        "id": "domain",
+        "q": "¿Puedo usar mi propio dominio?",
+        "a": "¡Sí! Tu restaurante obtiene un subdominio gratuito (xxx.myrestaurantmenu.com). Si prefieres un dominio personalizado, está incluido con un contrato anual, de lo contrario tiene un costo adicional."
+    },
+    {
+        "id": "multilang",
+        "q": "¿El menú es multilingüe?",
+        "a": "Claro. Puedes mostrar tu menú QR en tantos idiomas como desees. Cada idioma adicional se puede agregar como un complemento."
+    },
+    {
+        "id": "cms",
+        "q": "¿Cómo actualizo mi menú o información?",
+        "a": "Los dueños de restaurantes tienen acceso a un CMS donde pueden agregar, editar o eliminar productos, actualizar información y gestionar campañas de forma sencilla."
+    },
+    {
+        "id": "campaigns",
+        "q": "¿Qué tipo de campañas puedo crear?",
+        "a": "Puedes destacar el plato del día, promocionar eventos especiales como Nochevieja o crear campañas de marketing personalizadas. Es muy flexible y creativo."
+    },
+    {
+        "id": "ads",
+        "q": "¿Puedo colocar anuncios en mi menú?",
+        "a": "Sí, los propietarios pueden colocar anuncios dentro del menú. Esto es ideal para asociaciones y promociones."
+    },
+    {
+        "id": "customers",
+        "q": "¿Qué pueden hacer los clientes de mi restaurante?",
+        "a": "Los clientes pueden registrarse para obtener tarjetas de regalo, coleccionar tarjetas de sellos, marcar o guardar sus comidas favoritas, y en el futuro incluso llamar a un camarero o hacer un pedido."
+    },
+    {
+        "id": "support",
+        "q": "¿Cómo obtengo soporte al cliente?",
+        "a": "Ofrecemos soporte por correo electrónico y respondemos en menos de 24 horas."
+    }
+]

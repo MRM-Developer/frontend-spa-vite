@@ -1,0 +1,52 @@
+// src/styles/com-ui.accordion.scss
+
+
+@use './_base.variables.scss' as *;
+@use './_base.mixins.scss' as *;
+
+.accordion {
+    @include displayFlex(column wrap, flex-start, flex-start);
+    width: 100%;
+    gap: 1rem;
+    padding: 1.5rem;
+    border: 1px solid $COLORS-base-200;
+    border-radius: 1rem;
+    background-color: $COLORS-base-100;
+    transition: box-shadow 0.3s ease;
+
+    &:hover {
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+        cursor: pointer;
+    }
+
+    .accordion-header {
+        @include displayFlex(row nowrap, space-between, center);
+        gap: 1rem;
+        width: 100%;
+
+        .icon {
+            transition: transform 0.5s ease-out;
+        }
+        .rotated {
+            transform: rotate(180deg);
+        }
+    }
+
+    .accordion-body {
+        animation: fadeIn 0.5s ease-in;
+    }
+    &.open .accordion-body {
+        max-height: 500px; // enough for content
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-5px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
