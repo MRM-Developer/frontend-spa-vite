@@ -40,8 +40,7 @@ const Home = () => {
 
     const SectionHero = {
         "text": {
-            // "intro": "section.hero.homepage.intro",
-            "intro": "THIS IS A INTRO",
+            "intro": "section.hero.homepage.intro",
             "title": "section.hero.homepage.title",
             "subtitle": "section.hero.homepage.subtitle",
             "claimer": "section.hero.homepage.claimer"

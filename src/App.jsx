@@ -59,10 +59,33 @@ const router = createBrowserRouter(
 )
 
 function App() {
+  // 1. Check if the site should be locked
+  // This will be true only if you set it in Vercel Settings
+  const isLocked = import.meta.env.VITE_IS_LOCKED === 'true';
+
   // Call hook to avoid media download
   useDisableMediaInteractions();
   // Call hook to smooth scrolling in Apple OS
   useLenisScroll();
+
+  // If locked, return the a launching soon page
+  if (isLocked) {
+    return (
+      <div style={{
+        height: '100vh',
+        display: 'flex',
+        flexDirection: 'column',
+        justifyContent: 'center',
+        alignItems: 'center',
+        fontFamily: 'sans-serif',
+        textAlign: 'center',
+        padding: '20px'
+      }}>
+        <h1>🚀 Launching Soon</h1>
+        <p>Our project is currently under construction. Stay tuned!</p>
+      </div>
+    );
+  }
 
   return (
     <Provider store={store}>
